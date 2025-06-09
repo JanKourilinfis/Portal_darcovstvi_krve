@@ -1,0 +1,59 @@
+:root{
+    --WHITECOLOR:white;
+    --BLACKCOLOR:black;
+}
+*{
+    margin: 0px;
+}
+ul li{
+    display: inline;
+    font-size: 20px;
+    color: var(--WHITECOLOR);
+    padding: 10px;
+}
+ul{
+    text-align: right;
+}
+nav{
+    background-color: var(--BLACKCOLOR);
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline var(--WHITECOLOR);
+}
+a:visited{
+    color: var(--WHITECOLOR);
+}
+main{
+    background-color: red;
+    height: 97vh;
+    width: 99,5vw;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    text-align: left;
+}
+#vítej{
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    background-color: var(--BLACKCOLOR);
+    height: 50px;
+
+}
+footer p{
+    color: white;
+    text-align: right;
+    padding: 15px;
+}
