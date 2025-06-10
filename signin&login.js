@@ -6,12 +6,13 @@ function registrace(){
    var novyHeslo = document.getElementById("noveHeslo").value
    uzivatelskaHesla.push(novyHeslo)
 }
-function prihlaseni(){
+function prihlaseni(uzivatelskyJmena, uzivatelskaHesla){
     var prihlaseniUzivatel = document.getElementById("prihlaseniJmeno").value
     var prihlaseniHesla = document.getElementById("prihlaseniHeslo").value
-    for(i of uzivatele){
+    for(i of uzivatelskyJmena) {
         if (prihlaseniUzivatel==uzivatelskyJmena[i]&&prihlaseniHesla==uzivatelskaHesla[i]){
             alert("přihlášeno")
         }
     }
+        
 }
